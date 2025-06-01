@@ -2,7 +2,7 @@
 
 /*Side Bar*/
 .SideNav {
-    background-color:#e6f4f3;
+    background-color: #e6f4f3;
     height: 100%;
     width: 12%;
     position: fixed;
@@ -10,13 +10,22 @@
     top: 0;
     overflow-x: hidden;
     text-align: center;
-    margin-left:1%;
+    margin-left: 1%;
 }
 
 .NavLink {
-    font-size:larger;
+    font-size: larger;
     display: block;
     padding-bottom: 15%;
+    text-decoration: none;
+}
+
+.Current {
+    color: #90d7d5;
+}
+
+.NavLink:hover {
+    color: #90d7d5;
 }
 
 /*Page Content*/
