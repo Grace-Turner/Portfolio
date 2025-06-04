@@ -40,19 +40,37 @@
 }
 
 .Content h1 {
-    text-align: left;
+    text-align: center;
+}
+
+.Content h2 {
+    text-align:center;
+    font-size:xx-large;
 }
 
 /*Home Page*/
 
 #Summary {
-    display:block;
-    float:left;
-    width:75%
+    display: block;
+    float: left;
+    width: 75%
 }
 
 #Profile {
-    width:20%;
-    display:block;
-    float:right;
+    width: 20%;
+    display: block;
+    float: right;
+}
+
+/*Project Page*/
+#ProjectPage {
+    text-align: center;
+}
+
+#ProjectPage a {
+    text-decoration: none;
+}
+
+#ProjectPage a:hover {
+    color: #90d7d5
 }
