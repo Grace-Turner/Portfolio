@@ -112,7 +112,18 @@ a:hover {
 }
 
 #ProjectPage a:hover {
-    color: #90d7d5
+    color: #90d7d5;
+}
+
+.Project {
+    text-align:center;
+}
+
+.Project_Image {
+    width: 60%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
 }
 
 /*Contact Page*/
