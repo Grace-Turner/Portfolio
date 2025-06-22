@@ -122,8 +122,11 @@ a:hover {
 .Project_Image {
     width: 60%;
     text-align: center;
-    align-content: center;
-    margin: auto;
+}
+
+.Thumbnail {
+    height: 20ex;
+    text-align: center;
 }
 
 /*Contact Page*/
