@@ -107,6 +107,7 @@ i {
 }
 
 /*Project Page*/
+
 #ProjectPage {
     text-align: center;
 }
@@ -132,9 +133,17 @@ p.Details {
     text-align:left;
 }
 
-.Thumbnail {
-    height: 20ex;
+.Thumbnail figcaption {
+    width: 20ex;
     text-align: center;
+}
+
+.Thumbnail_Image {
+    width: 20ex;
+}
+
+.Thumbnail {
+    display: inline-table;
 }
 
 /*Contact Page*/
