@@ -257,11 +257,6 @@ iframe {
 /*Media: Phone*/
 @media screen and (max-width: 700px){
 
-    /*Overall*/
-    * {
-        font-size: larger;
-    }
-
     /*Navigation Bar*/
     .SideNav {
         height: auto;
