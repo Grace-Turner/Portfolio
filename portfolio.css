@@ -185,6 +185,12 @@ iframe {
 }
 
 
+/*Media: Tablet*/
+@media screen and (max-width: 1100px) {
+    .Logo {
+        width: 68%;
+    }
+}
 
 /*Media: Phone*/
 @media screen and (max-width: 700px){
@@ -238,5 +244,12 @@ iframe {
 
     .Project_Image {
         width: 90%;
+    }
+}
+
+/*Media: Small Phone*/
+@media screen and (max-width: 400px) {
+    .SideNav {
+        position: relative;
     }
 }
