@@ -13,6 +13,10 @@ a:hover {
     color: #90d7d5
 }
 
+i {
+    font-style: italic;
+}
+
 /*Side Bar*/
 .SideNav {
     background-color: #e6f4f3;
@@ -122,6 +126,10 @@ a:hover {
 .Project_Image {
     width: 60%;
     text-align: center;
+}
+
+p.Details {
+    text-align:left;
 }
 
 .Thumbnail {
