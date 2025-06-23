@@ -141,10 +141,19 @@ h3 a {
     width: 20%;
     margin: 2% 5%;
     display: inline-table;
+    border-width: 0.2%;
+    border-color: #FFFFFF;
+    border-style: solid;
 }
 
 #Index_Images {
     text-align: center;
+}
+
+.Index_Thumbnail:hover {
+    border-width: 0.2%;
+    border-color: #90d7d5;
+    border-style: solid;
 }
 
 /*Project Page*/
@@ -201,6 +210,15 @@ p.Details {
 
 .Thumbnail_Image {
     width: 20ex;
+    border-width: 0.2%;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+.Thumbnail_Image:hover {
+    border-width: 0.2%;
+    border-color: #90d7d5;
+    border-style: solid;
 }
 
 .Thumbnail {
