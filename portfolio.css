@@ -19,10 +19,6 @@ i {
     font-style: italic;
 }
 
-h3 {
-    margin-top: 6ex;
-}
-
 /*Side Bar*/
 .SideNav {
     background-color: #e6f4f3;
@@ -108,6 +104,25 @@ h3 {
     font-size:xx-large;
 }
 
+/*Subheadings*/
+h3 {
+    text-align: center;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    margin-top: 6ex;
+}
+
+h3 a {
+    text-align: center;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    margin-top: 6ex;
+}
+
 /*Main Section*/
 .Main{
     display: block;
@@ -162,6 +177,21 @@ h3 {
 
 p.Details {
     text-align:left;
+}
+
+.Packaging {
+    width: 23ex;
+    display: inline-table;
+}
+
+#Packaging_Details {
+    margin: 5% 0%;
+}
+
+.Character_Design {
+    height: 60ex;
+    text-align: center;
+    margin-top: 3%;
 }
 
 .Thumbnail figcaption {
