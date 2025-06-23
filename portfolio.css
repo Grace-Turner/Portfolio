@@ -59,6 +59,9 @@ h3 {
     color: #90d7d5;
 }
 
+/*Hidden Elements*/
+.removed {display:none;}
+
 /*Page Content*/
 .Content{
     margin-left: 17%;
@@ -179,4 +182,61 @@ iframe {
     height: 80ex;
     border-color: #a4a4a4;
     text-align: center;
+}
+
+
+
+/*Media: Phone*/
+@media screen and (max-width: 700px){
+
+    /*Overall*/
+    * {
+        font-size: larger;
+    }
+
+    /*Navigation Bar*/
+    .SideNav {
+        height: auto;
+        width: 100%;
+        position: fixed;
+        overflow-x: hidden;
+        text-align: center;
+    }
+
+    .Logo {
+        display: none;
+    }
+
+    .NavLink {
+        display: inline-table;
+        padding-bottom: 0%;
+        margin: 3% 2%;
+    }
+
+    /*Page Heading*/
+    .Page_Heading{
+        float: none;
+        width: 100%
+    }
+
+    /*Page Content*/
+    .Content {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 15%;
+    }
+
+    .Main {
+        display: block;
+        float: left;
+        width: 100%
+    }
+
+    #Profile {
+        display:none;
+    }
+
+    .Project_Image {
+        width: 90%;
+    }
 }
