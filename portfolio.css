@@ -4,7 +4,16 @@
     font-weight: 300;
     font-style: normal;
     color:black;
-    background-color: #FFFFFF;
+    background-color: #f4fbfb;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a {
@@ -19,36 +28,40 @@ i {
     font-style: italic;
 }
 
-/*Side Bar*/
-.SideNav {
+/*Navigation Bar*/
+.Nav {
     background-color: #e6f4f3;
-    height: 100%;
-    width: 14%;
+    height: 6rem;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
     text-align: center;
-    margin-left: 1%;
     font-family: "adobe-garamond-pro", serif;
     font-style: normal;
+    box-shadow: 0rem 0.05rem 1rem #00000022
+}
+
+.Nav * {
+    background-color: #e6f4f3;
 }
 
 .Logo {
-    align-content: center;
-    margin: 12% 0%;
-    background-color: #e6f4f3;
+    height: 5rem;
+    margin-top: 0.5rem;
+    vertical-align: middle;
 }
 
 .NavLink {
     font-size: larger;
-    display: block;
-    padding-bottom: 15%;
+    margin: 0 3%;
     text-decoration: none;
     font-family: adobe-garamond-pro, serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #e6f4f3;
+    display: inline-flex;
+    vertical-align: middle;
 }
 
 .Current {
@@ -59,17 +72,53 @@ i {
     color: #90d7d5;
 }
 
+/*Footer*/
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e6f4f3;
+    color: #75acaa;
+    margin-top: auto;
+    height: 5rem;
+}
+
 /*Page Content*/
 .Content{
-    margin-left: 17%;
-    margin-right: 2%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #FFFFFF;
+    width: 70%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0rem 0rem 1rem #00000022;
+}
+
+.Content * {
+    background-color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text_block {
+    flex: 0 0 70%;
+}
+
+.image_block {
+    flex: 0 0 30%;
 }
 
 /*Page Heading*/
 .Page_Heading{
     text-align: center;
-    float: left;
-    width: 80%
 }
 
 .Page_Heading h1 {
@@ -101,6 +150,14 @@ i {
     font-size:xx-large;
 }
 
+.Page_Heading h2 a {
+    text-align:center;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:xx-large;
+}
+
 /*Subheadings*/
 h3 {
     text-align: center;
@@ -120,18 +177,11 @@ h3 a {
     margin-top: 6ex;
 }
 
-/*Main Section*/
-.Main{
-    display: block;
-    float: left;
-    width: 80%
-}
-
 /*Home Page*/
 #Profile {
-    width: 18%;
-    display: block;
+    width: 80%;
     float: right;
+    border-radius: 4%;
 }
 
 .Index_Thumbnail {
@@ -141,6 +191,7 @@ h3 a {
     border-width: 0.2%;
     border-color: #FFFFFF;
     border-style: solid;
+    border-radius: 4%;
 }
 
 #Index_Images {
@@ -169,6 +220,8 @@ h3 a {
 
 .Project {
     text-align:center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .Project_Figure {
@@ -201,15 +254,18 @@ p.Details {
 }
 
 .Thumbnail figcaption {
-    width: 20ex;
+    width: 12rem;
     text-align: center;
 }
 
 .Thumbnail_Image {
-    width: 20ex;
+    width: 12rem;
     border-width: 0.2%;
     border-color: #FFFFFF;
     border-style: solid;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    border-radius: 4%;
 }
 
 .Thumbnail_Image:hover {
@@ -241,55 +297,32 @@ iframe {
     height: 80ex;
     border-color: #a4a4a4;
     text-align: center;
+    margin: 0 auto;
 }
 
 
 /*Media: Tablet*/
 @media screen and (max-width: 1100px) {
-    .Logo {
-        width: 68%;
-    }
 }
 
 /*Media: Phone*/
 @media screen and (max-width: 700px){
 
-    /*Navigation Bar*/
-    .SideNav {
-        height: auto;
-        width: 100%;
-        position: fixed;
-        overflow-x: hidden;
-        text-align: center;
+    .NavLink {
+        padding-top: 2rem;
     }
 
     .Logo {
         display: none;
     }
 
-    .NavLink {
-        display: inline-table;
-        padding-bottom: 0%;
-        margin: 3% 2%;
+    .text_block {
+        flex: 0 0 100%;
     }
 
-    /*Page Heading*/
-    .Page_Heading{
-        float: none;
-        width: 100%
-    }
-
-    /*Page Content*/
-    .Content {
-        margin-left: 3%;
-        margin-right: 3%;
-        margin-top: 15%;
-    }
-
-    .Main {
-        display: block;
-        float: left;
-        width: 100%
+    .Main.Project {
+    width: 100%;
+    margin-left: 0%;
     }
 
     #Profile {
@@ -303,7 +336,7 @@ iframe {
 
 /*Media: Small Phone*/
 @media screen and (max-width: 400px) {
-    .SideNav {
+    .Nav {
         position: relative;
     }
 }
