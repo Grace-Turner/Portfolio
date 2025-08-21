@@ -108,12 +108,35 @@ i {
     flex-wrap: wrap;
 }
 
+.spaced {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .text_block {
     flex: 0 0 70%;
 }
 
 .image_block {
     flex: 0 0 30%;
+}
+
+.text_block_smaller_right {
+    flex: 0 0 58%;
+    margin-top: 0.5rem;
+    margin-left: 2%;
+    text-align: left;
+}
+
+.text_block_smaller_left {
+    flex: 0 0 58%;
+    margin-top: 0.5rem;
+    margin-right: 2%;
+    text-align: left;
+}
+
+.image_block_smaller {
+    flex: 0 0 40%;
 }
 
 /*Page Heading*/
@@ -175,6 +198,14 @@ h3 a {
     font-style: normal;
     font-size: x-large;
     margin-top: 6ex;
+}
+
+h2.character_title {
+    text-align: center;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
 }
 
 /*Home Page*/
@@ -248,7 +279,7 @@ p.Details {
 }
 
 .Character_Design {
-    height: 60ex;
+    width: 20rem;
     text-align: center;
     margin-top: 3%;
 }
@@ -318,6 +349,18 @@ iframe {
 
     .text_block {
         flex: 0 0 100%;
+    }
+
+    .text_block_smaller_right {
+    flex: 0 0 100%;
+    }
+
+    .text_block_smaller_left {
+    flex: 0 0 100%;
+    }
+
+    .image_block_smaller {
+    flex: 0 0 100%;
     }
 
     .Main.Project {
