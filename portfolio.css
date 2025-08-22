@@ -28,6 +28,12 @@ i {
     font-style: italic;
 }
 
+b {
+    font-family: gesta, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 /*Navigation Bar*/
 .Nav {
     background-color: #e6f4f3;
@@ -111,6 +117,11 @@ i {
 .spaced {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.big_spaced {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .text_block {
