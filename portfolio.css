@@ -150,6 +150,18 @@ b {
     flex: 0 0 40%;
 }
 
+.thirds_block {
+    flex: 0 0 31%;
+    width: 30%;
+    padding: 1%;
+}
+
+.quarters_block {
+    flex: 0 0 23%;
+    width: 20%;
+    padding: 1%
+}
+
 /*Page Heading*/
 .Page_Heading{
     text-align: center;
@@ -200,6 +212,18 @@ h3 {
     font-style: normal;
     font-size: x-large;
     margin-top: 6ex;
+}
+
+h4 {
+    text-align: center;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+#reference_list {
+    margin-top: 8rem;
 }
 
 h3 a {
@@ -373,6 +397,16 @@ iframe {
     .image_block_smaller {
     flex: 0 0 100%;
     }
+
+    .thirds_block {
+    flex: 0 0 100%;
+    width: 80%;
+    }
+
+    .quarters_block {
+    flex: 0 0 100%;
+    width: 80%;
+}
 
     .Main.Project {
     width: 100%;
